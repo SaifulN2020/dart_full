@@ -6,6 +6,10 @@ void main() {
   number[2]="Two";
   number[3]="Three";
   print(number);
+  print("lenght of map ${number.length}");
+  print("map runtype ${number.runtimeType}");
+  print(number is int);
+  print(number is String);
 
 
   var capitals={
@@ -16,4 +20,5 @@ void main() {
     "Sri lanka ": "Nepal"
   };
   print(capitals);
+  print(capitals["India"]);
 }

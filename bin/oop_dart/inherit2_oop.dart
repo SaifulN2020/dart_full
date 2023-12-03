@@ -10,7 +10,7 @@ class Person{
   String college;
   Person(this.age,this.name,this.college){
 
-
+//another inheritancve
    
 
   }

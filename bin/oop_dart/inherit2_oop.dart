@@ -1,6 +1,7 @@
 void main(){
 Employee emp=Employee(25, "Wasim akram", "Pakistan");
 emp.Display();
+emp.sleep();
 
 
 }
@@ -8,6 +9,9 @@ class Person{
   int age;
   String name;
   String college;
+  sleep(){
+    print("Sleep all time");
+  }
   Person(this.age,this.name,this.college){
 
 //another inheritancve

@@ -1,4 +1,4 @@
 void main(){
-print("I submit assigment");
+print("uses for submit assigment");
 
 }
